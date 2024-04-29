@@ -1,2 +1,2 @@
 # Calculator
-A Little Calculator
+A Little Calculator thats developed by Ludoo.
