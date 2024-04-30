@@ -14,37 +14,37 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <h1 id="result">0</h1>
+    <h1 id="result"></h1>
     <table class="table">
       <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td>DEL</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td onclick="deleteLast()">DEL</td>
       </tr>
       <tr>
         <td onclick="addnumber(7)">7</td>
         <td onclick="addnumber(8)">8</td>
         <td onclick="addnumber(9)">9</td>
-        <td onclick="addnumber('+')">+</td>
+        <td onclick="addnumber(' + ')">+</td>
       </tr>
       <tr>
         <td onclick="addnumber(4)">4</td>
         <td onclick="addnumber(5)">5</td>
         <td onclick="addnumber(6)">6</td>
-        <td onclick="addnumber('-')">-</td>
+        <td onclick="addnumber(' - ')">-</td>
       </tr>
       <tr>
         <td onclick="addnumber(1)">1</td>
         <td onclick="addnumber(2)">2</td>
         <td onclick="addnumber(3)">3</td>
-        <td onclick="addnumber('*')">*</td>
+        <td onclick="addnumber(' * ')">*</td>
       </tr>
       <tr>
         <td onclick="addnumber(0)">0</td>
         <td onclick="addnumber('.')">,</td>
         <td onclick="getResult()" id="gleichzeichen">=</td>
-        <td onclick="addnumber('/')">/</td>
+        <td onclick="addnumber(' / ')">/</td>
       </tr>
     </table>
   </body>
