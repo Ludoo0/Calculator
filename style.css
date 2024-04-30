@@ -3,6 +3,12 @@ body {
   background-color: rgb(66, 66, 66);
   color: white;
 }
+#gleichzeichen {
+  background-color: rgb(71, 71, 255);
+}
+#gleichzeichen:hover{
+  background-color: rgb(40, 40, 151);
+}
 td {
   width: 25%;
   background-color: rgb(34, 34, 34);
@@ -18,7 +24,7 @@ td:hover {
   background-color: rgb(22, 22, 22);
   cursor: pointer;
 }
-#result{
+#result {
   padding-top: 5%;
   padding-bottom: 5%;
 }
