@@ -1,7 +1,13 @@
+#result {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: end;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(66, 66, 66);
   color: white;
+  text-align: center;
 }
 #gleichzeichen {
   background-color: rgb(71, 71, 255);
@@ -23,7 +29,4 @@ td:hover {
   background-color: rgb(22, 22, 22);
   cursor: pointer;
 }
-#result {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
+
